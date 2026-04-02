@@ -1,0 +1,42 @@
+.about-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  padding-top: 35px;
+  transform: scale(0.9);
+}
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  max-width: 900px;
+}
+
+.about-title {
+  color: white;
+  font-weight: 600;
+  font-size: 4rem;
+}
+
+.about-subtitle {
+  letter-spacing: 0.5em;
+  background: linear-gradient(to right, #7c3aed, #fb923c);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-weight: 300;
+  padding-bottom: 1.25rem;
+  font-size: 1.25rem;
+}
+
+.about-description {
+  color: #d1d5db;
+  text-align: center;
+}
