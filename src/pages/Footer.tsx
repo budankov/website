@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import { Social_Icons } from "../constant";
 import "../styles/Footer.css";
 
