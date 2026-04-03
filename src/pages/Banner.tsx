@@ -6,7 +6,7 @@ const Banner = () => {
       <div className="banner-content">
         <div className="banner-image-container">
           <img
-            src="/website/Me.png"
+            src="/Me.png"
             alt="Kostiantyn Budankov"
             className="banner-image"
           />
@@ -20,7 +20,7 @@ const Banner = () => {
             </span>
           </p>
           <img
-            src="/website/popcorn.gif"
+            src="/popcorn.gif"
             alt="Kostiantyn Budankov"
             className="banner-gif"
           />

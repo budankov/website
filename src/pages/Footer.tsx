@@ -10,11 +10,7 @@ const Footer = () => {
           target="_blank"
           className="footer-link"
         >
-          <img
-            src={"/website/Github.svg"}
-            alt={"Github"}
-            className="footer-icon"
-          />
+          <img src={"/Github.svg"} alt={"Github"} className="footer-icon" />
         </a>
         <a
           href={"https://www.linkedin.com/in/budankov"}
@@ -22,11 +18,7 @@ const Footer = () => {
           target="_blank"
           className="footer-link"
         >
-          <img
-            src={"/website/LinkedIn.svg"}
-            alt={"LinkedIn"}
-            className="footer-icon"
-          />
+          <img src={"/LinkedIn.svg"} alt={"LinkedIn"} className="footer-icon" />
         </a>
       </div>
       <p className="footer-text">Created with ❤️ using React</p>

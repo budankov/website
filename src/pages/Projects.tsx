@@ -8,14 +8,14 @@ const Projects = () => {
       <div className="projects-container">
         <div className="projects-card">
           <a
-            href="/website/learnpdr"
+            href="/learnpdr"
             rel="noopener noreferrer"
             target="_blank"
             className="projects-link"
           >
             <div className="projects-item">
               <img
-                src="/website/App_LearnPDR.png"
+                src="/App_LearnPDR.png"
                 alt="LearnPDR"
                 className="projects-image"
               />
@@ -31,14 +31,14 @@ const Projects = () => {
           </a>
 
           <a
-            href="/website/learnpdr"
+            href="/learnpdr"
             rel="noopener noreferrer"
             target="_blank"
             className="projects-link"
           >
             <div className="projects-item">
               <img
-                src="/website/App_ResuMate.png"
+                src="/App_ResuMate.png"
                 alt="UX Design Project"
                 className="projects-image"
               />
@@ -54,14 +54,14 @@ const Projects = () => {
           </a>
 
           <a
-            href="/website/learnpdr"
+            href="/learnpdr"
             rel="noopener noreferrer"
             target="_blank"
             className="projects-link"
           >
             <div className="projects-item">
               <img
-                src="/website/App_Chatty.png"
+                src="/App_Chatty.png"
                 alt="Chatty"
                 className="projects-image"
               />
@@ -77,14 +77,14 @@ const Projects = () => {
           </a>
 
           <a
-            href="/website/learnpdr"
+            href="/learnpdr"
             rel="noopener noreferrer"
             target="_blank"
             className="projects-link"
           >
             <div className="projects-item">
               <img
-                src="/website/App_Smart-E-Commerce.png"
+                src="/App_Smart-E-Commerce.png"
                 alt="UX Design Project"
                 className="projects-image"
               />
