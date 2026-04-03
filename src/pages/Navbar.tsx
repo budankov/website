@@ -7,7 +7,7 @@ const Navbar = () => {
         className="navbar-content"
         onClick={() => (window.location.href = "/")}
       >
-        <p className="navbar-logo">{"<Budankov.dev/>"}</p>
+        <p className="navbar-logo">{"<Budankov />"}</p>
 
         <div className="navbar-actions">
           <div

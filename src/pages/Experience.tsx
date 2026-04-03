@@ -9,7 +9,7 @@ const Experience = () => {
         <div className="experience-header">
           <div className="experience-job">
             <img
-              src="/WebHR.svg"
+              src="/website/WebHR.svg"
               alt="UX Experience"
               className="experience-logo"
             />

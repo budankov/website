@@ -6,88 +6,94 @@ const Projects = () => {
       <h2 className="projects-title">PROJECTS</h2>
       <p className="projects-subtitle">EXPLORE NOW</p>
       <div className="projects-container">
-        <div className="projects-row">
+        <div className="projects-card">
           <a
-            href="https://web.hr/"
+            href="/website/learnpdr"
             rel="noopener noreferrer"
             target="_blank"
             className="projects-link"
           >
             <div className="projects-item">
               <img
-                src="/FirstProject.png"
-                alt="UX Design Project"
+                src="/website/App_LearnPDR.png"
+                alt="LearnPDR"
                 className="projects-image"
               />
               <div className="projects-info">
-                <p className="projects-name">WebHR</p>
+                <p className="projects-name">LearnPDR</p>
                 <p className="projects-description">
-                  Designed a modern UI website comprising more than 50 screens,
-                  along with the integration of a blog using Next.js.
+                  An application that contains all the official theory and tests
+                  of traffic rules. There is complete information on all road
+                  signs, road markings, and traffic controller signals.
                 </p>
               </div>
             </div>
           </a>
+
           <a
-            href="https://hireside.com/"
+            href="/website/learnpdr"
             rel="noopener noreferrer"
             target="_blank"
             className="projects-link"
           >
             <div className="projects-item">
               <img
-                src="/SecondProject.png"
+                src="/website/App_ResuMate.png"
                 alt="UX Design Project"
                 className="projects-image"
               />
               <div className="projects-info">
-                <p className="projects-name">HireSide</p>
+                <p className="projects-name">ResuMate</p>
                 <p className="projects-description">
-                  Developed a web application on Next.js that allows users to
-                  apply for jobs, create job posts, and manage their company
-                  profiles.
+                  A mobile app for creating professional resumes directly on
+                  your phone. Simply fill in your information, choose a
+                  template, and export or share your resume in seconds.
                 </p>
               </div>
             </div>
           </a>
-        </div>
-        <div className="projects-row">
+
           <a
-            href="https://www.vergesystems.com/"
+            href="/website/learnpdr"
             rel="noopener noreferrer"
             target="_blank"
             className="projects-link"
           >
             <div className="projects-item">
               <img
-                src="/ThirdProject.png"
-                alt="UX Design Project"
+                src="/website/App_Chatty.png"
+                alt="Chatty"
                 className="projects-image"
               />
               <div className="projects-info">
-                <p className="projects-name">Verge Systems</p>
+                <p className="projects-name">Chatty</p>
                 <p className="projects-description">
-                  Developed the Verge Systems website using React.js.
+                  A personal AI assistant powered by the ChatGPT API. Ask
+                  anything, get instant responses, and use it for everyday
+                  tasks, learning, or quick problem-solving.
                 </p>
               </div>
             </div>
           </a>
+
           <a
-            href="http://44.201.47.75/"
+            href="/website/learnpdr"
             rel="noopener noreferrer"
             target="_blank"
             className="projects-link"
           >
             <div className="projects-item">
               <img
-                src="/FourProject.png"
+                src="/website/App_Smart-E-Commerce.png"
                 alt="UX Design Project"
                 className="projects-image"
               />
               <div className="projects-info">
-                <p className="projects-name">Payoasis</p>
+                <p className="projects-name">Smart-E-Commerce</p>
                 <p className="projects-description">
-                  Designed the modern UI for a banking website utilizing Gatsby.
+                  A modern e-commerce application for browsing and purchasing
+                  tech products. Features product categories, customization
+                  options, and a smooth shopping experience.
                 </p>
               </div>
             </div>

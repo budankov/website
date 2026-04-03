@@ -6,7 +6,7 @@ const Banner = () => {
       <div className="banner-content">
         <div className="banner-image-container">
           <img
-            src="/Me.png"
+            src="/website/Me.png"
             alt="Kostiantyn Budankov"
             className="banner-image"
           />
@@ -15,18 +15,21 @@ const Banner = () => {
         <div className="banner-name">Kostiantyn Budankov!</div>
         <div className="banner-subtitle-container">
           <p className="banner-subtitle">
-            I do Code & <span className="banner-gradient">Chill</span>
+            <span className="banner-gradient">
+              I build apps & enjoy the process
+            </span>
           </p>
           <img
-            src="/popcorn.gif"
+            src="/website/popcorn.gif"
             alt="Kostiantyn Budankov"
             className="banner-gif"
           />
         </div>
 
         <p className="banner-description">
-          Passionate Software Engineer with a focus on React Native development,
-          dedicated to crafting elegant and user-friendly mobile applications.
+          I create mobile applications with a focus on simplicity, usability,
+          and clean design. Turning ideas into working products is what drives
+          me.
         </p>
         <div className="banner-button-container">
           <button
