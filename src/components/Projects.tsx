@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "../styles/Projects.css";
 
 const Projects = () => {
@@ -7,12 +8,7 @@ const Projects = () => {
       <p className="projects-subtitle">EXPLORE NOW</p>
       <div className="projects-container">
         <div className="projects-card">
-          <a
-            href="/learnpdr"
-            rel="noopener noreferrer"
-            target="_blank"
-            className="projects-link"
-          >
+          <Link to="/learnpdr" className="projects-link">
             <div className="projects-item">
               <img
                 src="/App_LearnPDR.png"
@@ -28,14 +24,9 @@ const Projects = () => {
                 </p>
               </div>
             </div>
-          </a>
+          </Link>
 
-          <a
-            href="/learnpdr"
-            rel="noopener noreferrer"
-            target="_blank"
-            className="projects-link"
-          >
+          <Link to="/resumate" className="projects-link">
             <div className="projects-item">
               <img
                 src="/App_ResuMate.png"
@@ -51,14 +42,9 @@ const Projects = () => {
                 </p>
               </div>
             </div>
-          </a>
+          </Link>
 
-          <a
-            href="/learnpdr"
-            rel="noopener noreferrer"
-            target="_blank"
-            className="projects-link"
-          >
+          <Link to="/chatty" className="projects-link">
             <div className="projects-item">
               <img
                 src="/App_Chatty.png"
@@ -74,14 +60,9 @@ const Projects = () => {
                 </p>
               </div>
             </div>
-          </a>
+          </Link>
 
-          <a
-            href="/learnpdr"
-            rel="noopener noreferrer"
-            target="_blank"
-            className="projects-link"
-          >
+          <Link to="/smart-e-commerce" className="projects-link">
             <div className="projects-item">
               <img
                 src="/App_Smart-E-Commerce.png"
@@ -97,7 +78,7 @@ const Projects = () => {
                 </p>
               </div>
             </div>
-          </a>
+          </Link>
         </div>
       </div>
     </section>

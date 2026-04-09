@@ -1,0 +1,133 @@
+.project-privacy {
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: 0 auto;
+  animation: fadeIn 0.5s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.back-button {
+  background: none;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  color: white;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 8px;
+  margin-bottom: 30px;
+  transition: all 0.3s ease;
+  font-weight: 600;
+}
+
+.back-button:hover {
+  border-color: rgba(255, 255, 255, 0.8);
+  background: rgba(255, 255, 255, 0.1);
+  transform: translateX(-5px);
+}
+
+.project-privacy h1 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.privacy-content {
+  margin-bottom: 40px;
+}
+
+.privacy-content section {
+  margin-bottom: 35px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.privacy-content section:last-child {
+  border-bottom: none;
+}
+
+.privacy-content h2 {
+  font-size: 1.4rem;
+  margin-bottom: 15px;
+  color: rgba(255, 255, 255, 0.95);
+}
+
+.privacy-content p {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: rgba(255, 255, 255, 0.85);
+  margin-bottom: 12px;
+}
+
+.privacy-content ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 15px 0;
+}
+
+.privacy-content li {
+  padding: 8px 0 8px 25px;
+  position: relative;
+  color: rgba(255, 255, 255, 0.85);
+  line-height: 1.6;
+}
+
+.privacy-content li:before {
+  content: "•";
+  color: #667eea;
+  font-weight: bold;
+  position: absolute;
+  left: 0;
+}
+
+.privacy-footer {
+  text-align: center;
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 8px;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 0.95rem;
+}
+
+.privacy-error {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.privacy-error h1 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+/* Адаптивність */
+@media (max-width: 768px) {
+  .project-privacy {
+    padding: 30px 15px;
+  }
+
+  .project-privacy h1 {
+    font-size: 1.8rem;
+    margin-bottom: 30px;
+  }
+
+  .privacy-content h2 {
+    font-size: 1.2rem;
+  }
+
+  .privacy-content p {
+    font-size: 0.95rem;
+  }
+}
