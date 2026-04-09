@@ -11,7 +11,7 @@ const Navbar = () => {
 
         <div className="navbar-actions">
           <div
-            onClick={() => window.open("mailto:budankov@gmail.com")}
+            onClick={() => window.open("mailto:contact@budankov.dev")}
             className="navbar-contact"
           >
             Contact

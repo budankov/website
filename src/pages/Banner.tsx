@@ -33,7 +33,7 @@ const Banner = () => {
         </p>
         <div className="banner-button-container">
           <button
-            onClick={() => window.open("mailto:budankovkostya@gmail.com")}
+            onClick={() => window.open("mailto:contact@budankov.dev")}
             className="banner-button"
           >
             Contact Me
