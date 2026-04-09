@@ -22,7 +22,7 @@
 .about-title {
   color: white;
   font-weight: 600;
-  font-size: 4rem;
+  font-size: 3.75rem;
 }
 
 .about-subtitle {
@@ -32,7 +32,7 @@
   background-clip: text;
   color: transparent;
   font-weight: 300;
-  padding-bottom: 1.25rem;
+  padding: 1.25rem;
   font-size: 1.25rem;
 }
 

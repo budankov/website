@@ -4,7 +4,7 @@ const About = () => {
   return (
     <section id="about" className="about-section">
       <div className="about-content">
-        <h1 className="about-title">ABOUT ME</h1>
+        <p className="about-title">ABOUT ME</p>
         <p className="about-subtitle">TURNING IDEAS INTO APPS</p>
         <p className="about-description">
           As a passionate mobile developer, I enjoy the balance between clean
