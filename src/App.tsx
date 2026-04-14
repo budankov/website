@@ -1,8 +1,8 @@
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import AppPage from "./pages/AppPage";
-import HomePage from "./pages/HomePage";
 import AppPrivacy from "./pages/AppPrivacy";
+import HomePage from "./pages/HomePage";
 
 function App() {
   return (

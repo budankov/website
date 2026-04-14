@@ -5,6 +5,13 @@
   animation: fadeIn 0.5s ease-in;
 }
 
+/* Адаптивність */
+@media (max-width: 768px) {
+  .project-detail {
+    padding: 100px 20px 0px;
+  }
+}
+
 .project-detail.development {
   position: relative;
 }
