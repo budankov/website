@@ -55,7 +55,7 @@ function AppPage() {
                     src="/googleplay.svg"
                     alt="Google Play"
                     className="detail-ico"
-                  />{" "}
+                  />
                 </a>
               )}
             </div>

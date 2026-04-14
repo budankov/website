@@ -1,3 +1,8 @@
+interface Privacy {
+  title: string;
+  content: string[];
+}
+
 export interface Project {
   id: string;
   name: string;
@@ -8,6 +13,7 @@ export interface Project {
   why: string[];
   appstore: string;
   googleplay: string;
+  privacy: Privacy[];
 }
 
 export const projects: Record<string, Project> = {
@@ -36,6 +42,55 @@ export const projects: Record<string, Project> = {
     ],
     appstore: "https://appstore.com",
     googleplay: "https://googleplay.com",
+    privacy: [
+      {
+        title: "Information Collection and Use",
+        content: [
+          "This app does not collect, store, or share any personal data.",
+          "No registration or login is required to use the app.",
+        ],
+      },
+      {
+        title: "Local Data Storage",
+        content: [
+          "All data is stored locally on your device only.",
+          "This includes test progress, selected questions, incorrect answers, and app settings.",
+          "This data never leaves your device.",
+        ],
+      },
+      {
+        title: "Internet Usage",
+        content: [
+          "The app works полностью offline and does not require an internet connection.",
+          "No data is transmitted to any servers.",
+        ],
+      },
+      {
+        title: "Third-Party Services",
+        content: [
+          "The app does not use any third-party services, analytics tools, or advertising SDKs.",
+        ],
+      },
+      {
+        title: "Children’s Privacy",
+        content: [
+          "The app does not knowingly collect any personal information from children.",
+        ],
+      },
+      {
+        title: "Changes to This Privacy Policy",
+        content: [
+          "This Privacy Policy may be updated in the future.",
+          "Any changes will be reflected on this page.",
+        ],
+      },
+      {
+        title: "Contact",
+        content: [
+          "If you have any questions about this Privacy Policy, you can contact the developer.",
+        ],
+      },
+    ],
   },
   resumate: {
     id: "resumate",
@@ -62,6 +117,7 @@ export const projects: Record<string, Project> = {
     ],
     appstore: "https://appstore.com",
     googleplay: "https://googleplay.com",
+    privacy: [],
   },
   chatty: {
     id: "chatty",
@@ -87,6 +143,7 @@ export const projects: Record<string, Project> = {
     ],
     appstore: "https://appstore.com",
     googleplay: "https://googleplay.com",
+    privacy: [],
   },
   "smart-e-commerce": {
     id: "smart-e-commerce",
@@ -114,5 +171,6 @@ export const projects: Record<string, Project> = {
     ],
     appstore: "https://appstore.com",
     googleplay: "https://googleplay.com",
+    privacy: [],
   },
 };

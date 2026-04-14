@@ -56,7 +56,6 @@
   display: flex;
   justify-content: center;
   gap: 15px;
-  flex-wrap: wrap;
 }
 
 .link-button {
@@ -181,12 +180,20 @@
     gap: 30px;
   }
 
+  .detail-image {
+    max-height: 200px;
+  }
+
   .detail-info h1 {
     font-size: 1.8rem;
   }
 
   .features-list {
     grid-template-columns: 1fr;
+  }
+
+  .features-list li {
+    text-align: left;
   }
 
   .detail-section h2 {
