@@ -39,7 +39,6 @@
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 11;
-  max-width: 90vw;
   font-size: 60px;
   white-space: nowrap;
 }
@@ -269,7 +268,7 @@
 /* Адаптивність */
 @media (max-width: 768px) {
   .title-development {
-    white-space: wrap;
+    font-size: 2rem;
     line-height: 1.2;
   }
 
