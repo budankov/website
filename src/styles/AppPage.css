@@ -1,5 +1,5 @@
 .project-detail {
-  padding: 40px 20px;
+  padding: 150px 20px 0px;
   max-width: 1200px;
   margin: 0 auto;
   animation: fadeIn 0.5s ease-in;
@@ -16,25 +16,6 @@
   }
 }
 
-.back-button {
-  background: none;
-  border: 2px solid rgba(255, 255, 255, 0.3);
-  color: white;
-  padding: 10px 20px;
-  font-size: 1rem;
-  cursor: pointer;
-  border-radius: 8px;
-  margin-bottom: 30px;
-  transition: all 0.3s ease;
-  font-weight: 600;
-}
-
-.back-button:hover {
-  border-color: rgba(255, 255, 255, 0.8);
-  background: rgba(255, 255, 255, 0.1);
-  transform: translateX(-5px);
-}
-
 .detail-header {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -45,22 +26,26 @@
 
 .detail-image {
   width: 100%;
-  border-radius: 12px;
-  object-fit: cover;
+  object-fit: contain;
   max-height: 400px;
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+}
+
+.detail-ico {
+  width: 100%;
+  height: 60px;
+  object-fit: contain;
 }
 
 .detail-info h1 {
-  font-size: 2.5rem;
-  margin-bottom: 20px;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 10px 0;
+  background: linear-gradient(to right, #a855f7, #fb923c);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
 
 .detail-description {
+  text-align: left;
   font-size: 1.1rem;
   line-height: 1.8;
   color: rgba(255, 255, 255, 0.9);
@@ -69,36 +54,20 @@
 
 .detail-links {
   display: flex;
+  justify-content: center;
   gap: 15px;
   flex-wrap: wrap;
 }
 
 .link-button {
-  padding: 12px 25px;
-  border-radius: 8px;
-  text-decoration: none;
-  font-weight: 600;
-  transition: all 0.3s ease;
-  border: 2px solid rgba(102, 126, 234, 0.5);
-  color: white;
-  display: inline-block;
+  display: block;
   cursor: pointer;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  will-change: transform;
 }
 
 .link-button:hover {
-  border-color: #667eea;
-  background: rgba(102, 126, 234, 0.1);
-  transform: translateY(-2px);
-}
-
-.link-button.primary {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  border: none;
-}
-
-.link-button.primary:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 10px 25px rgba(102, 126, 234, 0.4);
+  transform: translateY(-6px);
 }
 
 .detail-section {
@@ -111,8 +80,9 @@
   color: rgba(255, 255, 255, 0.95);
 }
 
-.tech-stack {
+.why-section {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   gap: 12px;
 }

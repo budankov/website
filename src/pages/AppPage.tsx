@@ -1,7 +1,7 @@
 import { Link, useParams } from "react-router-dom";
 import Layout from "../components/Layout";
 import { projects } from "../data/projects";
-import "../styles/ProjectDetail.css";
+import "../styles/AppPage.css";
 
 function AppPage() {
   const { projectId } = useParams();
@@ -11,7 +11,7 @@ function AppPage() {
     return (
       <Layout>
         <div className="project-detail-error">
-          <h1>Проект не знайдено</h1>
+          <h1>Project not found</h1>
         </div>
       </Layout>
     );
@@ -30,24 +30,32 @@ function AppPage() {
             <h1>{project.name}</h1>
             <p className="detail-description">{project.fullDescription}</p>
             <div className="detail-links">
-              {project.github && (
+              {project.appstore && (
                 <a
-                  href={project.github}
+                  href={project.appstore}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="link-button"
                 >
-                  GitHub
+                  <img
+                    src="/appstore.svg"
+                    alt="App Store"
+                    className="detail-ico"
+                  />
                 </a>
               )}
-              {project.demo && (
+              {project.googleplay && (
                 <a
-                  href={project.demo}
+                  href={project.googleplay}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="link-button primary"
+                  className="link-button"
                 >
-                  Переглянути
+                  <img
+                    src="/googleplay.svg"
+                    alt="Google Play"
+                    className="detail-ico"
+                  />{" "}
                 </a>
               )}
             </div>
@@ -55,20 +63,9 @@ function AppPage() {
         </div>
 
         <div className="detail-section">
-          <h2>Технології</h2>
-          <div className="tech-stack">
-            {project.technologies.map((tech) => (
-              <span key={tech} className="tech-badge">
-                {tech}
-              </span>
-            ))}
-          </div>
-        </div>
-
-        <div className="detail-section">
-          <h2>Можливості</h2>
+          <h2>🚀 Key Features</h2>
           <ul className="features-list">
-            {project.features.map((feature) => (
+            {project.highlights.map((feature) => (
               <li key={feature}>
                 <span className="feature-icon">✓</span>
                 {feature}
@@ -77,9 +74,20 @@ function AppPage() {
           </ul>
         </div>
 
+        <div className="detail-section">
+          <h2>🔥 Why this app</h2>
+          <div className="why-section">
+            {project.why.map((tech) => (
+              <span key={tech} className="tech-badge">
+                {tech}
+              </span>
+            ))}
+          </div>
+        </div>
+
         <div className="detail-footer">
           <Link to={`/${projectId}/privacy`} className="privacy-link">
-            Політика приватності
+            Privacy Policy
           </Link>
         </div>
       </div>
