@@ -19,7 +19,20 @@ function AppPage() {
 
   return (
     <Layout>
-      <div className="project-detail">
+      <div
+        className={`project-detail ${
+          projectId !== "learnpdr" ? "development" : ""
+        }`}
+      >
+        {projectId !== "learnpdr" && (
+          <h1 className="title-development">
+            <img src="/Me.png" alt="Image development" />
+            Project in development<span className="dot dot-1">.</span>
+            <span className="dot dot-2">.</span>
+            <span className="dot dot-3">.</span>
+          </h1>
+        )}
+
         <div className="detail-header">
           <img
             src={project.image}
@@ -61,7 +74,6 @@ function AppPage() {
             </div>
           </div>
         </div>
-
         <div className="detail-section">
           <h2>🚀 Key Features</h2>
           <ul className="features-list">
@@ -73,7 +85,6 @@ function AppPage() {
             ))}
           </ul>
         </div>
-
         <div className="detail-section">
           <h2>🔥 Why this app</h2>
           <div className="why-section">
@@ -84,7 +95,6 @@ function AppPage() {
             ))}
           </div>
         </div>
-
         <div className="detail-footer">
           <Link to={`/${projectId}/privacy`} className="privacy-link">
             Privacy Policy
