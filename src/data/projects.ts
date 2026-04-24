@@ -46,7 +46,9 @@ export const projects: Record<string, Project> = {
       {
         title: "Information Collection and Use",
         content: [
-          "This app does not collect, store, or share any personal data.",
+          "The app does not collect personal data automatically.",
+          "Users may voluntarily provide name and email when submitting feedback. This information is used solely to respond to user inquiries and is not stored longer than necessary.",
+          "Feedback data is not retained unless required for support communication.",
           "No registration or login is required to use the app.",
         ],
       },
@@ -61,7 +63,7 @@ export const projects: Record<string, Project> = {
       {
         title: "Internet Usage",
         content: [
-          "The app works полностью offline and does not require an internet connection.",
+          "The application works completely offline and does not require an internet connection.",
           "No data is transmitted to any servers.",
         ],
       },
