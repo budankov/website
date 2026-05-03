@@ -40,7 +40,7 @@ export const projects: Record<string, Project> = {
       "Fast and lightweight",
       "All data stays on your device",
     ],
-    appstore: "https://appstore.com",
+    appstore: "https://apps.apple.com/app/id6764638184",
     googleplay: "https://googleplay.com",
     privacy: [
       {
