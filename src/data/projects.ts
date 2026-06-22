@@ -41,7 +41,8 @@ export const projects: Record<string, Project> = {
       "All data stays on your device",
     ],
     appstore: "https://apps.apple.com/app/id6764638184",
-    googleplay: "https://googleplay.com",
+    googleplay:
+      "https://play.google.com/store/apps/details?id=com.budankov.learnpdr",
     privacy: [
       {
         title: "Information Collection and Use",
