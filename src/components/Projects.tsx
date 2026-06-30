@@ -8,6 +8,24 @@ const Projects = () => {
       <p className="projects-subtitle">EXPLORE NOW</p>
       <div className="projects-container">
         <div className="projects-card">
+          <Link to="/teneo" className="projects-link">
+            <div className="projects-item">
+              <img
+                src="/App_ResuMate.png"
+                alt="Teneo Flash Cards"
+                className="projects-image"
+              />
+              <div className="projects-info">
+                <p className="projects-name">Teneo Flash Cards</p>
+                <p className="projects-description">
+                  A focused flash card app for building study decks, using
+                  FSRS-based repetition, and tracking your learning progress
+                  across cards and languages.
+                </p>
+              </div>
+            </div>
+          </Link>
+
           <Link to="/learnpdr" className="projects-link">
             <div className="projects-item">
               <img

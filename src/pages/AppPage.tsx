@@ -6,6 +6,8 @@ import "../styles/AppPage.css";
 function AppPage() {
   const { projectId } = useParams();
   const project = projectId ? projects[projectId] : null;
+  const isDevelopmentProject =
+    projectId !== "learnpdr" && projectId !== "teneo";
 
   if (!project) {
     return (
@@ -20,11 +22,9 @@ function AppPage() {
   return (
     <Layout>
       <div
-        className={`project-detail ${
-          projectId !== "learnpdr" ? "development" : ""
-        }`}
+        className={`project-detail ${isDevelopmentProject ? "development" : ""}`}
       >
-        {projectId !== "learnpdr" && (
+        {isDevelopmentProject && (
           <h1 className="title-development">
             <img src="/Me.png" alt="Image development" />
             Project in development<span className="dot dot-1">.</span>

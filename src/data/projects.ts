@@ -17,6 +17,90 @@ export interface Project {
 }
 
 export const projects: Record<string, Project> = {
+  teneo: {
+    id: "teneo",
+    name: "Teneo Flash Cards",
+    image: "/App_ResuMate.png",
+    shortDescription:
+      "A flexible flash card app for building decks, studying with FSRS, and tracking progress.",
+    fullDescription:
+      "Teneo Flash Cards is a spaced-repetition study app for building folders, decks, and cards in a simple but powerful workflow. Users can create reverse cards, add text or images, search across cards, and organize their study material with emoji, images, and editable deck settings. The app uses FSRS for scheduling, shows when each card becomes available, and helps users follow progress through new cards, learning cards, and detailed activity stats.",
+    highlights: [
+      "Create folders, decks, and cards",
+      "Reverse cards with text and image content",
+      "FSRS-based spaced repetition",
+      "Deck controls for new cards and intervals",
+      "Search across cards and study material",
+      "Availability, learning, and new card tracking",
+      "Current streak, best streak, and freeze protection",
+      "Localization support for multiple languages",
+    ],
+    why: [
+      "Works offline",
+      "No ads",
+      "No registration",
+      "Fast and lightweight",
+      "All data stays on your device",
+    ],
+    appstore: "",
+    googleplay: "",
+    privacy: [
+      {
+        title: "Information Collection and Use",
+        content: [
+          "The app does not collect personal data automatically.",
+          "Card content, study progress, deck settings, folders, and localization preferences are stored only on your device.",
+          "No account, sign-in, or registration is required to use the app.",
+        ],
+      },
+      {
+        title: "Local Data Storage",
+        content: [
+          "All study data is stored locally on your device.",
+          "This includes cards, folders, decks, reverse card settings, search data, streaks, learning state, and scheduling information.",
+          "The app uses this data only to provide the study experience and never uploads it to a server.",
+        ],
+      },
+      {
+        title: "Internet Usage",
+        content: [
+          "The app is designed to work offline and does not require an internet connection.",
+          "No study data is transmitted to any servers during normal use.",
+        ],
+      },
+      {
+        title: "Bug Reports",
+        content: [
+          "If you choose to send a bug report, the message you enter may be used to understand and fix the issue.",
+          "The report may also include the app version and build number so the installed release can be identified.",
+          "This information is used only for troubleshooting and is not collected automatically.",
+        ],
+      },
+      {
+        title: "Third-Party Services",
+        content: ["The app does not use advertising SDKs or analytics tools."],
+      },
+      {
+        title: "Children’s Privacy",
+        content: [
+          "The app does not knowingly collect personal information from children.",
+        ],
+      },
+      {
+        title: "Changes to This Privacy Policy",
+        content: [
+          "This Privacy Policy may be updated in the future.",
+          "Any changes will be reflected on this page.",
+        ],
+      },
+      {
+        title: "Contact",
+        content: [
+          "If you have any questions about this Privacy Policy, you can contact the developer.",
+        ],
+      },
+    ],
+  },
   learnpdr: {
     id: "learnpdr",
     name: "LearnPDR",
