@@ -11,7 +11,7 @@ const Projects = () => {
           <Link to="/teneo" className="projects-link">
             <div className="projects-item">
               <img
-                src="/App_ResuMate.png"
+                src="/App_Teneo.png"
                 alt="Teneo Flash Cards"
                 className="projects-image"
               />
